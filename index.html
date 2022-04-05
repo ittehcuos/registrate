@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <!--Google Font-->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,100&display=swap" rel="stylesheet">
+       <!-- CDN Font Awesom-->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" >
+       <!--CSS style-->
+       <link rel="stylesheet" href="style.css" >
+       <title>Formulario</title>
+</head>
+<body>
+       <div class="fondodiv">
+              <h1>REGISTRATE</h1>
+              <form>
+                     <label class="elicono">
+                            <i class="fa-solid fa-circle-user"></i>
+                     </label>
+                     <br>
+                     <label class="name" style="width: 78%;"><span id="asterisco">*</span>
+                            <input type="text" placeholder="NOMBRE" required size="40px" style="border-bottom: solid 2px #474544;">
+                            
+                     </label>
+                     <br>
+                     <label class="apellido" style="width: 78%;"><span id="asterisco">*</span>
+                            <input type="text" placeholder="APELLIDO"  required size="40" style="border-bottom: solid 2px #474544;">
+                            
+                     </label>
+                     <br>
+                     <label for="radio" class="sexo" style="width: 78%;" >SEXO:  &nbsp &nbsp 
+                            <input type="radio" id="check"> Mujer  &nbsp &nbsp
+                            <input type="radio" id="check"> Hombre 
+                     </label>
+                     <br>
+                     <label style="width: 78%;"><span id="asterisco">*</span> &nbsp &nbsp &nbsp Fecha de nacimiento 
+                            <br>
+                            <br>
+                              <input type="date" required style="border-bottom: solid 1px #474544;">
+                     </label>
+                     <br>
+                     <label style="width: 78%;" class="correo"><span id="asterisco">*</span>
+                            <input style="border-bottom: solid 2px #474544;" type="email" id="icono-placeholder" placeholder="CORREO" required size="40" >
+                     </label>
+                     <br>
+                     <label style="width: 78%;" >Genero literario de preferencia (hasta 3)
+                            <br>
+                            <br>
+                            <select name="género" id="" style="background-color: antiquewhite;border-bottom: solid 1px #474544;"">
+                                   <option value="biografía">Biografía</option>
+                                   <option value="clásicos">Clasicos</option>
+                                   <option value="comics">Comics</option>
+                                   <option value="fantasía">Fantasía</option>
+                                   <option value="ficción">Ficción</option>
+                                   <option value="ficción-histórica">Ficción histórica</option>
+                                   <option value="historia">Historia</option>
+                                   <option value="horror">Horror</option>
+                                   <option value="misterio">Misterio</option>
+                                   <option value="no-ficcción">No ficción</option>
+                                   <option value="poesía">Poesía</option>
+                                   <option value="romance">Romance</option>
+                                   <option value="ciencia-ficción">Ciencia ficció</option>
+                                   <option value="thriller">Thriller</option>
+                                   <option value="young-adult">Young Adult</option>
+                                   <option value="otro">Otro</option>
+                            </select>
+                            <select name="género" id="" style="background-color: antiquewhite;border-bottom: solid 1px #474544;">
+                                   <option value="biografía">Biografía</option>
+                                   <option value="clásicos">Clasicos</option>
+                                   <option value="comics">Comics</option>
+                                   <option value="fantasía">Fantasía</option>
+                                   <option value="ficción">Ficción</option>
+                                   <option value="ficción-histórica">Ficción histórica</option>
+                                   <option value="historia">Historia</option>
+                                   <option value="horror">Horror</option>
+                                   <option value="misterio">Misterio</option>
+                                   <option value="no-ficcción">No ficción</option>
+                                   <option value="poesía">Poesía</option>
+                                   <option value="romance">Romance</option>
+                                   <option value="ciencia-ficción">Ciencia ficció</option>
+                                   <option value="thriller">Thriller</option>
+                                   <option value="young-adult">Young Adult</option>
+                                   <option value="otro">Otro</option>
+                            </select>
+                            <select name="género" id="" style="background-color: antiquewhite;border-bottom: solid 1px #474544;">
+                                   <option value="biografía">Biografía</option>
+                                   <option value="clásicos">Clasicos</option>
+                                   <option value="comics">Comics</option>
+                                   <option value="fantasía">Fantasía</option>
+                                   <option value="ficción">Ficción</option>
+                                   <option value="ficción-histórica">Ficción histórica</option>
+                                   <option value="historia">Historia</option>
+                                   <option value="horror">Horror</option>
+                                   <option value="misterio">Misterio</option>
+                                   <option value="no-ficcción">No ficción</option>
+                                   <option value="poesía">Poesía</option>
+                                   <option value="romance">Romance</option>
+                                   <option value="ciencia-ficción">Ciencia ficció</option>
+                                   <option value="thriller">Thriller</option>
+                                   <option value="young-adult">Young Adult</option>
+                                   <option value="otro">Otro</option>
+                            </select>
+                     </label >
+                     <br>
+                     <label class="acepto" style="width: 78%;"> 
+                            <span id="asterisco">*</span> <input type="checkbox" id="check" required> &nbsp Declaro haber leído, comprendido y aceptado los Términos de Servicio y Política de Privacidad.
+                            <br>
+                            <input type="checkbox" id="check"> &nbsp Deseo recibir información sobre novedades y últimas publicaciones.
+                            <br>
+                            <br>
+                     </label>
+                     <button>
+                            <input type="button" value="Registrarme" style="background-color: rgb(15, 15, 73); color:white">
+                     </button>
+              </form>
+       </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+*{
+       margin: 0;
+       border: 0;
+       font-family: 'Montserrat', sans-serif;
+}
+body {
+       background: linear-gradient(60deg, rgb(230, 89, 89), white);
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       justify-content: center;
+
+}
+.fondodiv {
+       background-color:antiquewhite;
+       width: 40%;
+       height: 100%;
+       position: relative;left: 350px; top: 10px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       padding: 15px;
+}
+
+h1{
+       color: rgb(15, 15, 73);
+}
+
+i{
+       font-size: 50px;
+       color: rgb(15, 15, 73);
+}
+
+form{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+}
+
+.acepto{
+       width: 80%;
+       font-size: 11px;
+}
+
+input[type="text"] {
+       background-color:antiquewhite;
+       position: relative; left: 22px;
+       align-items: center;
+       justify-content: center;
+       font-size: 15px;
+}
+
+input[type="email"]{
+       background-color: antiquewhite;
+       position: relative; left: 22px;
+       align-items: center;
+       justify-content: center;
+       font-size: 15px;
+}
+
+input[type="date"]{
+       background-color: antiquewhite;
+       position: relative; left: 30px;
+       align-items: center;
+       justify-content: center;
+       font-size: 15px;
+}
+
+.underline {
+       border-bottom: solid 2px #474544;
+       margin: -0.512em auto;
+       width: 80px;
+}
+
+label.sexo {
+       display: flex;
+       justify-content: left;
+}
+
+input[type="button"] {
+       padding: 8px;
+}
