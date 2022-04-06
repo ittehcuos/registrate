@@ -1,84 +1,105 @@
 *{
+       padding: 0;
        margin: 0;
-       border: 0;
-       font-family: 'Montserrat', sans-serif;
+       font-family: 'Work Sans', sans-serif;
 }
-body {
-       background: linear-gradient(60deg, rgb(230, 89, 89), white);
+
+body{
+       background-image: url('textura.jpg');
+       background-color: rgb(200, 186, 61) ;
+       background-size: cover;
        background-repeat: no-repeat;
        background-attachment: fixed;
-       justify-content: center;
-
 }
-.fondodiv {
-       background-color:antiquewhite;
-       width: 40%;
+
+div.fondodiv {
+       background-color: lightseagreen;
+       width: 30%;
        height: 100%;
-       position: relative;left: 350px; top: 10px;
+       position: relative; left: 35%; top: 30px;
+       border-radius: 10px;
+       box-shadow: 8px 8px 6px #3f3f3f;
+}
+
+header {
+       background-image: url(biblioteca.png);
+       background-size: 100%;
+       background-repeat: no-repeat;
        display: flex;
        flex-direction: column;
        justify-content: center;
-       align-items: center;
-       padding: 15px;
+       align-items: center;    
+       border-top-left-radius: 10px;   
+       border-top-right-radius: 10px;
 }
-
-h1{
-       color: rgb(15, 15, 73);
-}
-
 i{
-       font-size: 50px;
-       color: rgb(15, 15, 73);
+       margin-top: 25px;
+}
+
+h1 {
+       padding-top: 20px;
+       font-size: 15px;
+       color: white;
 }
 
 form{
+       font-size: 12px;
        display: flex;
        flex-direction: column;
        justify-content: center;
        align-items: center;
-       width: 100%;
+       padding-bottom: 20px;
 }
 
-.acepto{
-       width: 80%;
-       font-size: 11px;
+label{
+       display: block;
+       padding: 1px;
 }
 
-input[type="text"] {
-       background-color:antiquewhite;
-       position: relative; left: 22px;
-       align-items: center;
-       justify-content: center;
-       font-size: 15px;
+input, textarea{
+       padding: 5px;
+       background-color:inherit;
+       border: none;    
+       border-bottom: solid 1.5px white;  
+
+}
+input::placeholder {
+       color: black;
+     }
+
+
+select{
+       background-color: rgb(60, 200, 193);
+       border: none;
+
 }
 
-input[type="email"]{
-       background-color: antiquewhite;
-       position: relative; left: 22px;
-       align-items: center;
-       justify-content: center;
-       font-size: 15px;
+button{
+
+       padding: 10px;
+       margin-left: 15%;
+       background-color: rgb(60, 200, 193);
+       border-radius: 10px;
+       border: 1px;
+       color: black;
+       font-weight: bold;
+       box-shadow: inset 1px 1px gold;
 }
 
-input[type="date"]{
-       background-color: antiquewhite;
-       position: relative; left: 30px;
-       align-items: center;
-       justify-content: center;
-       font-size: 15px;
+button:hover {
+       padding: 10px;
+       margin-left: 15%;
+       background-color: rgb(16, 65, 63);
+       color: white;
+       border-radius: 10px;
+       border:none;
 }
 
-.underline {
-       border-bottom: solid 2px #474544;
-       margin: -0.512em auto;
-       width: 80px;
-}
 
-label.sexo {
-       display: flex;
-       justify-content: left;
-}
-
-input[type="button"] {
-       padding: 8px;
+input#chek {
+       width:0;
+       cursor: default;
+       appearance: auto;
+       box-sizing: border-box;
+       display: inline-block;
 }
